@@ -1,20 +1,20 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+int main(void) 
 {
- int a,b,c;
+int a,b,c;
  printf("Enter the values for a,b,c");
  scanf("%d %d %d",&a,&b,&c);
  if((a>b)&&(a>c))
   {
-   printf("a is greater");
+   printf("\n a is greater");
   }
  else if(b>c)
   {
-   printf("b is greater");
+   printf("\n b is greater");
   }
  else
   {
-   printf("c is greater");
+   printf("\n c is greater");
   }
- return 0;
- }
+	return 0;
+}
